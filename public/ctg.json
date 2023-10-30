@@ -1,0 +1,261 @@
+[
+    {
+        "brandName": "Apple",
+        "brandImage": "https://i.ibb.co/fqm5JP0/apple-f-1.webp"
+    },
+    {
+        "brandName": "Microsoft",
+        "brandImage": "https://i.ibb.co/VBcpXJT/microsoft-2.jpg"
+    },
+    {
+        "brandName": "Google",
+        "brandImage": "https://i.ibb.co/nz2hVm2/Google.webp"
+    },
+    {
+        "brandName": "Intel",
+        "brandImage": "https://i.ibb.co/PW4W9x6/intel.jpg"
+    },
+    {
+        "brandName": "Sony",
+        "brandImage": "https://i.ibb.co/6mZ7gzZ/sony.webp"
+    },
+    {
+        "brandName": "Samsung",
+        "brandImage": "https://i.ibb.co/f1cd5L0/samsung.webp"
+    }
+]
+[
+    {
+        "image": "https://i.ibb.co/RNWnN8m/Apple-Macbook-Air.webp",
+        "name": "Apple-Macbook-Air!!",
+        "brandName": "Apple",
+        "price": "150000",
+        "rating": "4.8",
+        "type": "Computer",
+        "details": "The Apple MacBook Air is a lightweight, ultra-thin laptop featuring a Retina display, Apple's M-series chips for enhanced performance, and runs macOS. Known for its sleek design and long battery life, it's a popular choice among professionals and students alike.",
+        "update": "Update",
+        "companyName": "Apple Technology company"
+    }
+]
+[
+    {
+        "image": "https://i.ibb.co/RNWnN8m/Apple-Macbook-Air.webp",
+        "name": "Apple-Macbook-Air!!",
+        "brandName": "Apple",
+        "price": 150000,
+        "rating": 4.8,
+        "type": "Computer",
+        "details": "The Apple MacBook Air is a lightweight, ultra-thin laptop featuring a Retina display, Apple's M-series chips for enhanced performance, and runs macOS. Known for its sleek design and long battery life, it's a popular choice among professionals and students alike.",
+        "update": "Update",
+        "companyName": "Apple Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/2PhKRJX/Apple-i-Phone-15-Pro-Max.webp",
+        "name": "Apple-i-Phone-15-Pro-Max!!",
+        "brandName": "Apple",
+        "price": 170000,
+        "rating": 4.8,
+        "type": "Phone",
+        "details": "As of my last update in January 2022, the iPhone 15 Pro Max has not been released, and therefore I cannot provide specific details about it. However, Apple's iPhone Pro Max models typically feature a larger display, advanced camera system, and superior performance capabilities in the lineup.",
+        "update": "Update",
+        "companyName": "Apple Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/5TgXpCw/apple-ipad.webp",
+        "name": "Apple-Ipad!!",
+        "brandName": "Apple",
+        "price": 80000,
+        "rating": 4.6,
+        "type": "Phone",
+        "details": "The Apple iPad is a line of touchscreen-based tablets running iOS, known for its high-quality display, powerful performance, and vast app ecosystem. Over the years, it's been offered in various sizes and configurations, catering to both casual users and professionals.",
+        "update": "Update",
+        "companyName": "Apple Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/473tcrB/Apple-Watch-Ultra.webp",
+        "name": "Apple-Watch-Ultra!!",
+        "brandName": "Apple",
+        "price": 50000,
+        "rating": 4.8,
+        "type": "Watch",
+        "details": "As of my last update in January 2022, there is no product named 'Apple Watch Ultra' in Apple's lineup. Apple's smartwatch series is known as the 'Apple Watch,' which offers health tracking, notifications, and various other functionalities in a sleek design. If Apple has since released an 'Apple Watch Ultra,' I would not have details on it.",
+        "update": "Update",
+        "companyName": "Apple Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/5Y5qRHn/sony-tv.webp",
+        "name": "Sony-Televisions!!",
+        "brandName": "Sony",
+        "price": 40000,
+        "rating": 4.7,
+        "type": "Televisions",
+        "details": "Sony's televisions are renowned for their advanced display technologies like OLED and Bravia XR, offering superior picture quality and sound. They come equipped with features like Android TV for smart functionalities, high dynamic range (HDR) support, and sleek designs suitable for modern homes.",
+        "update": "Update",
+        "companyName": "Sony Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/hYYr90H/sony-camera.webp",
+        "name": "Sony-Camera!!",
+        "brandName": "Sony",
+        "price": 100000,
+        "rating": 4.8,
+        "type": "Camera",
+        "details": "Sony cameras are renowned for their innovative sensor technology, high-resolution image quality, and a range of models from compact point-and-shoots to professional-grade mirrorless systems. They often feature advanced autofocus, 4K video capabilities, and a robust lens ecosystem.",
+        "update": "Update",
+        "companyName": "Sony Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/zPh9mfh/Sony-Headphone-2.jpg",
+        "name": "Sony-Headphone!!",
+        "brandName": "Sony",
+        "price": 10000,
+        "rating": 4.5,
+        "type": "Headphone",
+        "details": "Sony headphones are known for their superior sound quality and noise-canceling capabilities, particularly in models like the WH-1000XM series. They offer a range of wired and wireless options, often with features like touch controls, long battery life, and comfortable designs.",
+        "update": "Update",
+        "companyName": "Sony Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/xjSW447/Sony-speaker.png",
+        "name": "Sony-speaker!!",
+        "brandName": "Sony",
+        "price": 5000,
+        "rating": 4.8,
+        "type": "Speaker",
+        "details": "Sony speakers are recognized for delivering rich sound quality and often incorporate features like Bluetooth connectivity, water resistance, and EXTRA BASS enhancement. They come in various sizes and designs, suitable for both indoor and outdoor listening experiences.",
+        "update": "Update",
+        "companyName": "Sony Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/k9V0gdH/chrome.png",
+        "name": "Google-Chrome!!",
+        "brandName": "Google",
+        "price": 500,
+        "rating": 4.9,
+        "type": "Application",
+        "details": "Google Chrome is a fast, secure, and widely-used web browser developed by Google. It offers features like tabbed browsing, extensions, and seamless integration with Google services.",
+        "update": "Update",
+        "companyName": "Google Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/87vBS6f/map.png",
+        "name": "Google-Map!!",
+        "brandName": "Google",
+        "price": 600,
+        "rating": 4.8,
+        "type": "Application",
+        "details": "Google Maps is a comprehensive mapping service developed by Google, providing navigation, traffic updates, and local business information. It offers satellite imagery, street view, and route planning for traveling by foot, car, bicycle, or public transportation.",
+        "update": "Update",
+        "companyName": "Google Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/XxKpLT7/google-drive.png",
+        "name": "Google-Drive!!",
+        "brandName": "Google",
+        "price": 5000,
+        "rating": 4.7,
+        "type": "Application",
+        "details": "Google Drive is a cloud-based storage service from Google, allowing users to save files online and synchronize them across devices. It integrates seamlessly with Google Docs, Sheets, and Slides, enabling collaborative editing and sharing of documents.",
+        "update": "Update",
+        "companyName": "Google Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/LzrWQpx/gmail.png",
+        "name": "Google-Gmail!!",
+        "brandName": "Google",
+        "price": 1000,
+        "rating": 4.8,
+        "type": "Application",
+        "details": "Gmail is a free, web-based email service provided by Google, known for its user-friendly interface and robust spam filtering. It offers seamless integration with other Google services, large storage capacity, and advanced search capabilities.",
+        "update": "Update",
+        "companyName": "Google Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/ngFDRS9/Intel-Core-i9.png",
+        "name": "Intel-Core-i9!!",
+        "brandName": "Intel",
+        "price": 80000,
+        "rating": 4.8,
+        "type": "Prosesor",
+        "details": "The Intel Core i9 is a high-performance processor series from Intel, designed for enthusiast and professional computing tasks. It offers multiple cores and threads, boosting multitasking and intensive applications, and is part of Intel's 10th and later generation CPU families.",
+        "update": "Update",
+        "companyName": "Intel Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/Hgk4DpH/intel-arc-graphics.png",
+        "name": "Intel-ARC-Graphics!!",
+        "brandName": "Intel",
+        "price": 50000,
+        "rating": 4.6,
+        "type": "Graphics",
+        "details": "As of my last update in January 2022, Intel ARC Graphics refers to Intel's line of discrete graphics cards intended for gaming and content creation. They mark Intel's entry into the dedicated GPU market, aiming to compete with NVIDIA and AMD by offering high-performance visual computing solutions.",
+        "update": "Update",
+        "companyName": "Intel Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/hXsT5HT/intel-ipu.webp",
+        "name": "Intel-IPU!!",
+        "brandName": "Intel",
+        "price": 60000,
+        "rating": 4.8,
+        "type": "Graphics",
+        "details": "Intel's IPU (Infrastructure Processing Unit) is a specialized chip designed to handle the complex data center workloads more efficiently by offloading and accelerating tasks that CPUs traditionally handle. It aims to optimize cloud infrastructure, improve performance and flexibility, and adapt to the evolving demands of modern data centers.",
+        "update": "Update",
+        "companyName": "Intel Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/Bn4SFnP/Intel-Iris-svg.png",
+        "name": "Intel-Iris!!",
+        "brandName": "Intel",
+        "price": 80000,
+        "rating": 4.5,
+        "type": "Graphics",
+        "details": "Intel Iris refers to a series of integrated graphics solutions found in certain Intel processors, offering enhanced graphical performance compared to basic Intel HD Graphics. These GPUs are designed to deliver improved 3D rendering, media processing, and display capabilities without the need for a discrete graphics card.",
+        "update": "Update",
+        "companyName": "Intel Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/VmmW0rt/Samsung-tv.webp",
+        "name": "Samsung-Televisions!!",
+        "brandName": "Samsung",
+        "price": 50000,
+        "rating": 4.9,
+        "type": "Televisions",
+        "details": "Samsung televisions are known for their cutting-edge QLED technology and crystal-clear displays, offering vibrant colors and deep contrasts. They often feature smart capabilities, including integration with Samsung's Tizen OS, and a sleek, modern design suitable for contemporary homes.",
+        "update": "Update",
+        "companyName": "Samsung Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/ZY3JCQq/Galaxy-Tab-S.webp",
+        "name": "Galaxy-Tab-S!!",
+        "brandName": "Samsung",
+        "price": 30000,
+        "rating": 4.7,
+        "type": "Phone",
+        "details": "The Samsung Galaxy Tab S series are premium Android tablets known for their vibrant Super AMOLED displays and sleek designs. They offer high-performance specifications, S Pen support in certain models, and a range of productivity and entertainment features.",
+        "update": "Update",
+        "companyName": "Samsung Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/PTQP6kc/Samsung-Galaxy-S23-Ultra.webp",
+        "name": "Samsung-Galaxy-S23-Ultra!!",
+        "brandName": "Samsung",
+        "price": 180000,
+        "rating": 4.9,
+        "type": "Phone",
+        "details": "As of my last update in January 2022, the Samsung Galaxy S23 Ultra has not been released, so I cannot provide specific details about it. Historically, Samsung's 'Ultra' models in the Galaxy S series are flagship smartphones boasting top-tier specs, advanced camera systems, and cutting-edge display technologies. If the Galaxy S23 Ultra has been released after 2022, I wouldn't have information on it.",
+        "update": "Update",
+        "companyName": "Samsung Technology company"
+    },
+    {
+        "image": "https://i.ibb.co/KmkPHS1/Samsung-Galaxy-Watch5.webp",
+        "name": "Samsung-Galaxy-Watch5!!",
+        "brandName": "Samsung",
+        "price": 25000,
+        "rating": 4.4,
+        "type": "Watch",
+        "details": "As of my last update in January 2022, the Samsung Galaxy Watch 5 has not been released, so I cannot provide specific details about it. The Samsung Galaxy Watch series typically offers a blend of health tracking, smartwatch functionality, and long battery life, all wrapped up in a stylish design. If the Galaxy Watch 5 has been released after 2022, I wouldn't have the latest information on it.",
+        "update": "Update",
+        "companyName": "Samsung Technology company"
+    }
+]
