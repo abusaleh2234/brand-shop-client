@@ -1,10 +1,19 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../firebase/AuthProvider";
 
 const Navbar = () => {
+
+    const {User, logOut} = useContext(AuthContext)
+
+    const heldelLogOut = () => {
+        logOut()
+    }
     const navbar = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/addproduct">Add Product</NavLink></li>
         <li><NavLink to="/mycart">My Cart</NavLink></li>
+        <li><NavLink to="/login">Login</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -25,7 +34,25 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+            {
+                        User?.email ? <div className="flex items-center gap-4">
+                            <div className="dropdown dropdown-end">
+                        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                            <div className="w-10 rounded-full">
+                                <img src={User?.photoURL} />
+                            </div>
+                        </label>
+                        <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                            <li><a>{User?.displayName}</a></li>
+                            <li><a>Logout</a></li>
+                        </ul>
+
+                    </div>
+                    <button 
+                    onClick={heldelLogOut} 
+                    className="btn" >LogOut</button>
+                        </div> : <Link to="/login" className="btn">Login</Link>
+                    }
             </div>
         </div>
     );
