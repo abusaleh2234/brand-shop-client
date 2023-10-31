@@ -7,7 +7,7 @@ import { AuthContext } from "../../firebase/AuthProvider";
 
 const Register = () => {
 
-    const {creatUser, setUser} = useContext(AuthContext)
+    const {creatUser} = useContext(AuthContext)
     const [error, setError] = useState(null)
     // console.log(error);
 
@@ -44,7 +44,7 @@ const Register = () => {
         creatUser(email,password)
         .then(res => {
             console.log(res.user)
-            setUser(res?.user)
+            // setUser(res?.user)
             toast.success('Your Login Successfully!')
         })
         .catch(err => console.log(err))
