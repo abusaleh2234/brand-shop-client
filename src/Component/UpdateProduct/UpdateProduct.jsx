@@ -38,8 +38,8 @@ const UpdateProduct = () => {
         .then(data => console.log(data))
     }
     return (
-        <div>
-            <h2>Update Product</h2>
+        <div className="container mx-auto py-10">
+            <h2 className="text-4xl font-bold text-center pb-6">Update Product</h2>
 
             <form onSubmit={hendelUpdateProduct }>
                 <div className="grid gap-6 mb-6 md:grid-cols-2">

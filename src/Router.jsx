@@ -10,11 +10,13 @@ import MyCart from "./pages/MyCart/MyCart";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Login/Register";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
+import ErrorElement from "./Component/ErrorElement/ErrorElement";
 
 export const router = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement: <ErrorElement></ErrorElement>,
       children: [
         {
             path: "/",
