@@ -8,7 +8,6 @@ import { AuthContext } from "../../firebase/AuthProvider";
 const Login = () => {
 
     const { userlogin } = useContext(AuthContext)
-    // const [error, setError] = useState(null)
     const navigate = useNavigate()
     const location = useLocation()
 

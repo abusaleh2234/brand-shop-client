@@ -86,7 +86,8 @@ const Products = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 container mx-auto py-10">
                 {
-                    Products.map(product => <ProductsCard key={product._id} product={product}></ProductsCard>)
+                    Products.length > 0 ?Products.map(product => <ProductsCard key={product._id} product={product}></ProductsCard>)
+                     :<h3 className="text-center text-lg font-bold">product not found</h3>
                 }
             </div>
         </div>
