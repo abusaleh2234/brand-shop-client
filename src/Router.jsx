@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
         {
             path: "/",
             element: <Home></Home>,
-            loader: () => fetch("http://localhost:5000/brands")
+          loader: () => fetch("https://brand-shop-server-rcyta6vsu-md-abusalehs-projects.vercel.app/brands")
         },
         {
           path: "/addproduct",
@@ -29,23 +29,23 @@ export const router = createBrowserRouter([
         },
         {
           path: "/mycart",
-          element: <MyCart></MyCart>,
-          loader: () => fetch("http://localhost:5000/addCart")
+          element: <PrivateRoute><MyCart></MyCart></PrivateRoute>,
+          loader: () => fetch("https://brand-shop-server-rcyta6vsu-md-abusalehs-projects.vercel.app/addCart")
         },
         {
           path:"/products/:name",
           element: <Products></Products>,
-          loader: ({params}) => fetch(`http://localhost:5000/productsItem/${params.name}`)
+          loader: ({ params }) => fetch(`https://brand-shop-server-rcyta6vsu-md-abusalehs-projects.vercel.app/productsItem/${params.name}`)
         },
         {
           path: "/productDetails/:id",
           element: <ProductDetails></ProductDetails>,
-          loader: ({params}) => fetch(`http://localhost:5000/productDetails/${params.id}`)
+          loader: ({ params }) => fetch(`https://brand-shop-server-rcyta6vsu-md-abusalehs-projects.vercel.app/productDetails/${params.id}`)
         },
         {
           path: "/updateProduct/:id",
           element: <PrivateRoute><UpdateProduct></UpdateProduct></PrivateRoute>,
-          loader: ({params}) => fetch(`http://localhost:5000/updateProduct/${params.id}`)
+          loader: ({ params }) => fetch(`https://brand-shop-server-rcyta6vsu-md-abusalehs-projects.vercel.app/updateProduct/${params.id}`)
         },
         {
           path: "/login",

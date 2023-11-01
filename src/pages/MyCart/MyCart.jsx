@@ -20,7 +20,7 @@ const MyCart = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/addCart/${id}`, {
+                fetch(`https://brand-shop-server-rcyta6vsu-md-abusalehs-projects.vercel.app/addCart/${id}`, {
                     method: "DELETE"
                 })
                     .then(res => res.json())
@@ -53,8 +53,8 @@ const MyCart = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {
                     cartProducts.map(product => <div key={product._id} className="flex flex-col items-center border border-gray-200 rounded-lg shadow md:flex-row  bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img className="object-cover w-2/5 rounded-t-lg   md:rounded-none md:rounded-l-lg" src={product.image} alt="" />
-                        <div className="px-5 pb-5 space-y-4 w-3/5">
+                        <img className="object-cover w-full md:w-2/5 rounded-t-lg   md:rounded-none md:rounded-l-lg" src={product.image} alt="" />
+                        <div className="px-5 pb-5 space-y-4 w-full md:w-3/5">
                             <a href="#">
                                 <h5 className="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">{product.name}</h5>
                                 <p>{product.details.length > 120 ? <>{product.details.slice(0, 120)} <Link to={`/productDetails/${product._id}`}>see more</Link></> : product.details}</p>

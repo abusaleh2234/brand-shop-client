@@ -7,7 +7,7 @@ const Brands = () => {
     // console.log(loadedBrands);
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto py-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto py-10 px-4">
                 
                 {
                     loadedBrands.map(brand => <Link to={`/products/${brand.brandName}`} key={brand._id}><div   className="relative w-full grid items-end place-items-start bg-center bg-cover h-72" style={{ backgroundImage: `url(${brand.brandImage})` }}>

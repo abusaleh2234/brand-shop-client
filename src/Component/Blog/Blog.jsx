@@ -6,7 +6,7 @@ const Blog = () => {
     return (
         <div className="py-8">
             <h3 className="text-2xl font-bold pb-8">Latest blog posts</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
                 <div className="space-y-4">
                     <figure><img className="rounded-xl" src={blog1} alt="Shoes" /></figure>
                     <div className="space-y-4">

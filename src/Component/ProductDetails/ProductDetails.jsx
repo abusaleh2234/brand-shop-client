@@ -10,7 +10,7 @@ const ProductDetails = () => {
 
     const hendelAddCard = () => {
         console.log(product);
-        fetch("http://localhost:5000/addCart",{
+        fetch("https://brand-shop-server-rcyta6vsu-md-abusalehs-projects.vercel.app/addCart", {
             method: "POST",
             headers: {
                 'content-type': "application/json"
@@ -36,8 +36,8 @@ const ProductDetails = () => {
         <div>
 
             <div className="flex flex-col items-center md:flex-row bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img className="object-cover w-2/5 rounded-t-lg   md:rounded-none md:rounded-l-lg" src={image} alt="" />
-                <div className="px-5 pb-5 space-y-4 w-3/5">
+                <img className="object-cover w-full md:w-2/5 rounded-t-lg   md:rounded-none md:rounded-l-lg" src={image} alt="" />
+                <div className="px-5 pb-5 space-y-4 md:w-3/5">
                     <div>
                         <h5 className="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">{name}</h5>
                         <p>{details}</p>

@@ -2,13 +2,16 @@ import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged,
 import { createContext, useEffect, useState } from "react";
 import { auth } from "./firebase.config";
 import PropTypes from 'prop-types';
+import { useLocation, useNavigate } from "react-router-dom";
 
 
 export const AuthContext = createContext()
 const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({children}) => {
-
+    
+    // const navigate = useNavigate()
+    // const location = useLocation()
     const [User, setUser] = useState(null)
     const [Looding, setLooding] = useState(true)
 
@@ -26,12 +29,12 @@ const AuthProvider = ({children}) => {
     const googleLogin = () => {
         setLooding(true)
         return signInWithPopup(auth, googleProvider)
-
     }
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             setUser(user)
             setLooding(false)
+            // navigate(location?.state ? location?.state :  "/")
           });
         return () => {
             unsubscribe()

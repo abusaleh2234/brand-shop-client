@@ -7,6 +7,7 @@ import { AuthContext } from "../../firebase/AuthProvider";
 
 const Register = () => {
 
+    
     const {creatUser} = useContext(AuthContext)
     const [error, setError] = useState(null)
     // console.log(error);

@@ -24,7 +24,7 @@ const AddProduct = () => {
         }
         console.log(addproduct);
 
-        fetch("http://localhost:5000/addProduct",{
+        fetch("https://brand-shop-server-rcyta6vsu-md-abusalehs-projects.vercel.app/addProduct", {
             method: "POST",
             headers: {
                 'content-type': "application/json"
@@ -47,7 +47,7 @@ const AddProduct = () => {
 
     }
     return (
-        <div className='container mx-auto py-10'>
+        <div className='container mx-auto py-10 px-4'>
             <h2 className='text-4xl font-semibold text-center mb-6'>Add Product</h2>
 
             <form onSubmit={hendelAddProduct}>

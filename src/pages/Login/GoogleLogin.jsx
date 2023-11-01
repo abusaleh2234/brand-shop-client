@@ -2,12 +2,14 @@ import { useContext } from 'react';
 import { FcGoogle } from 'react-icons/fc';
 import toast from 'react-hot-toast';
 import { AuthContext } from '../../firebase/AuthProvider';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 
 
 
 const GoogleLogin = () => {
-
+    const navigate = useNavigate()
+    const location = useLocation()
     const {googleLogin,setUser} = useContext(AuthContext)
 
     const hendelGoogleLogin = () => {
@@ -15,6 +17,7 @@ const GoogleLogin = () => {
         .then(res => {
             console.log(res.user)
             setUser(res?.user)
+            navigate(location?.state ? location?.state :  "/")
             toast.success('Your Login Successfully!')
         })
         .catch(error => console.log(error))
